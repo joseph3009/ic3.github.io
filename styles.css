@@ -1,0 +1,153 @@
+/*Correspondiente a todos los hr*/
+header hr{
+    border-color: #96943b; 
+    border-width: 1px;
+    margin: 20px auto;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+/*Correspondiente a todos los h2*/
+h2{
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    text-shadow: 2px 2px 4px #000000;
+    margin: 0;
+    color: #b0ad53;
+    text-transform: uppercase;  
+}
+
+/*Correspondiente a todos los p*/
+p{
+    color: rgb(31, 24, 24);
+}
+
+/*Correspondiente al header*/
+header{
+    text-align: center;
+    padding: 0;
+    background-color: #cac66a;
+    border: 2px solid #96943b;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+/*Correspondiente al h1*/
+h1{
+    font-size: 40px;
+    color: #96943b;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    text-shadow: 2px 2px 4px #000000;
+    text-transform: uppercase;
+    margin: 0; 
+}
+
+/*Correspondiente al nav*/
+.navegacion{
+    padding: 0;
+    margin: 0;
+    background-color: #96943b;
+    border: 2px solid black;
+}
+
+/*Correspondiente a los ul*/
+.navegacion ul{
+    list-style-type: none; 
+    display: flex;
+    justify-content: center 
+}
+
+
+/*Correspondiente a los li*/
+.navegacion li {
+    margin:  5px; 
+}
+
+/*Correspondiente a los a*/
+.navegacion a{
+    display: inline-block;
+    padding: 9px;
+    text-decoration: none; 
+    color: #cac66a; 
+    border-radius: 2px;
+    font-weight: bold; 
+    /*Genera una transición en el fondo del texto*/
+    transition: background-color 0.5s; 
+}
+
+/*Se utiliza para aplicar estilos a los enlaces cuando el cursor pasa sobre ellos*/
+.navegacion a:hover {
+    text-shadow: 2px 2px 4px #77733f;
+}
+
+/*Correspondiente al body*/
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/*Card de qué es DCU*/
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.card img{
+    padding-top: 20px;
+    border-radius: 25%;
+    
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+/*Correspondiente al apartado de etapas y beneficios*/
+#etapas, #beneficios h2{
+    padding-top: 25px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+#etapas, #beneficios p{
+    text-align: left;
+    padding-left: 10px;
+}
+
+#etapas, #beneficios li{
+    margin: 5px 0;
+    text-align: left;
+}
+
+#etapas, #beneficios footer{
+    text-align: left;
+    padding-left: 10px;
+}
+
+#Ejemplos {
+    display: flex;
+    flex-wrap: nowrap; /* Evita que los elementos bajen a la siguiente línea */
+    justify-content: space-between; /* Espacia los elementos horizontalmente */
+    align-items: center; /* Alinea verticalmente al centro */
+}
+
+#Ejemplos div {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra el título con la imagen */
+    margin: 10px;
+}
+
+#Ejemplos img {
+    width: 250px; /* Tamaño ajustado para que quepan varias imágenes en la fila */
+    height: 150px;
+    margin-top: 10px;
+}
